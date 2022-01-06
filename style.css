@@ -1,0 +1,101 @@
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 100;
+    margin: 0;
+ }
+ .page-heading {
+    margin-top: 20px;
+    padding-left: 15px;
+    border-left: 4px solid rgb(255, 187, 0);
+    line-height: 200%;
+    margin-top: 150px;
+  }
+  .page-heading h1 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 50px;
+  }
+ .first-section, .second-div, .third-section, .fourth-section {
+     display: flex;
+     width: 80%;
+    margin: 20px auto;
+ }
+ .half-width {
+     width: 50%;
+ }
+ .profile-photo {
+     width: 75%;
+     padding-left: 40px;
+ }
+ .button {
+    margin: 40px 0px 40px 0px ;
+ }
+ .button-link {
+    text-decoration: none;
+    color: white;
+    margin: 200px auto;
+    padding: 10px 40px;
+    background-color: rgb(0, 106, 192);
+    border-radius: 5px;
+ }
+.section-heading {
+   font-size: 45px ;
+   font-family: 'Poppins', sans-serif;
+   text-align: center;
+}
+.one-third-width{
+   width: 25%;
+   padding: 30px;
+   border-radius: 10px;
+}
+.one-third-width img {
+   width: 50%;
+}
+#div-1 {
+   background-color: rgb(251, 231, 255);
+
+}
+#div-2 {
+   background-color: rgb(255, 228, 223);
+   margin: 0px 25px;
+}
+#div-3 {
+   background-color: rgb(254, 255, 215);
+}
+.third-section {
+   margin-top: 80px;
+}
+
+.third-section h2, .fourth-section h2 {
+   font-size: 35px ;
+   font-family: 'Poppins', sans-serif;
+}
+.third-sec-img-left {
+
+}
+.third-sec-img-left img, .third-sec-img-right img{
+   width: 75%;
+}
+.third-sec-img-right{
+   padding-left: 30px;
+}
+
+.fourth-section-img {
+   width: 75%;
+}
+
+footer {
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+.footer-content {
+   padding: 30px;
+}
+
+ footer h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+ }
+ footer p {
+    font-size: 13px;
+ }
