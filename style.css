@@ -3,21 +3,21 @@ body {
     font-weight: 100;
     margin: 0;
  }
- .page-heading {
-    margin-top: 20px;
-    padding-left: 15px;
-    border-left: 4px solid rgb(255, 187, 0);
-    line-height: 200%;
-    margin-top: 150px;
-  }
-  .page-heading h1 {
-    font-family: 'Yeseva One', cursive;
-    font-size: 50px;
-  }
- .first-section, .second-div, .third-section, .fourth-section {
+  .banner, .mission, .coding-project, .application {
      display: flex;
      width: 80%;
     margin: 20px auto;
+ }
+ .banner-heading {
+   margin-top: 20px;
+   padding-left: 15px;
+   border-left: 4px solid rgb(255, 187, 0);
+   line-height: 200%;
+   margin-top: 150px;
+ }
+ .banner-heading h1 {
+   font-family: 'Yeseva One', cursive;
+   font-size: 50px;
  }
  .half-width {
      width: 50%;
@@ -50,49 +50,59 @@ body {
 .one-third-width img {
    width: 50%;
 }
-#div-1 {
-   background-color: rgb(251, 231, 255);
+#mission-1 {
+   background-color: rgb(233, 221, 253);
 
 }
-#div-2 {
-   background-color: rgb(255, 228, 223);
+#mission-2 {
+   background-color: rgb(253, 223, 219);
    margin: 0px 25px;
 }
-#div-3 {
-   background-color: rgb(254, 255, 215);
+#mission-3 {
+   background-color: rgb(254, 255, 203);
 }
-.third-section {
+h5 {
+   font-size: 20px;
+   font-family:  'Poppins', sans-serif;
+}
+.coding-project {
    margin-top: 80px;
 }
-
-.third-section h2, .fourth-section h2 {
+.coding-project h3, .application h3 {
    font-size: 35px ;
    font-family: 'Poppins', sans-serif;
+   margin-top: 50px;
 }
-.third-sec-img-left {
+.coding-img img, .project-img img{
+   width: 400px;
+}
+.project-img img {
+   padding-left: 100px;
+}
+.coding-text {
+   margin-left: 100px;
+}
+.project-text {
+   margin: 0;
+}
 
-}
-.third-sec-img-left img, .third-sec-img-right img{
-   width: 75%;
-}
-.third-sec-img-right{
-   padding-left: 30px;
-}
 
-.fourth-section-img {
-   width: 75%;
+.application-img {
+   width: 50%;
+   padding-left: 25%;
 }
 
 footer {
    background-color: black;
    color: white;
    text-align: center;
+   margin-top: 100px;
 }
-.footer-content {
+.footer {
    padding: 30px;
 }
 
- footer h3 {
+ footer h4 {
     font-family: 'Lobster', cursive;
     font-size: 30px;
  }
